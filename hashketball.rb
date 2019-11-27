@@ -204,11 +204,11 @@ end
 
 def player_w_biggest_feet
   game_hash.max_by { |name, stats| stats[:shoe] }
+  binding.pry
 end
 
 def big_shoe_rebounds
   player_w_biggest_feet[1][:rebounds]
-  binding.pry
  end
 
 
