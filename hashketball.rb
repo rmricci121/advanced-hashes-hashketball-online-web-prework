@@ -202,16 +202,12 @@ def player_stats(players_name)
   stat_hash
 end
 
+def player_w_biggest_feet
+  all_players.max_by { |name, stats| stats[:shoe] }
+end
+
 def big_shoe_rebounds
-   game_hash.map do |place, team|
-    team[:players].each do |player|
-      size = player[:shoe]
-         
-          #binding.pry
-          
-        
-    end
- end
+  
  
 end
 
