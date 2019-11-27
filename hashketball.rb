@@ -207,7 +207,7 @@ def big_shoe_rebounds
     team[:players].each do |player|
       size = player[:shoe]
          
-          binding.pry
+          #binding.pry
           
         end
     end
