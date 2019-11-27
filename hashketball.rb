@@ -203,14 +203,14 @@ def player_stats(players_name)
 end
 
 
-def big_shoe_rebounds
-   game_hash.map do |place, team|
-    team[:players].each do |player|
-      size = player[:shoe]
-        # binding.pry
-    end
-  end
-end
+# def big_shoe_rebounds
+#   game_hash.map do |place, team|
+#     team[:players].each do |player|
+#       size = player[:shoe]
+#         # binding.pry
+#     end
+#   end
+# end
 
 
 
