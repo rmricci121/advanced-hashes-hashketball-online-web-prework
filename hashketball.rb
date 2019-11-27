@@ -203,7 +203,7 @@ def player_stats(players_name)
 end
 
 def player_w_biggest_feet
-  all_players.max_by { |name, stats| stats[:shoe] }
+  game_hash.max_by { |name, stats| stats[:shoe] }
 end
 
 def big_shoe_rebounds
